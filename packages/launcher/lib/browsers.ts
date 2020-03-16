@@ -105,6 +105,15 @@ export const browsers: Browser[] = [
     profile: true,
     binary: 'edge-dev',
   },
+  {
+    name: 'safari',
+    family: 'safari',
+    channel: 'stable',
+    displayName: 'Safari',
+    versionRegex: /Safari (\S+)/,
+    profile: true,
+    binary: ['safari'],
+  },
 ]
 
 /** starts a found browser and opens URL if given one */

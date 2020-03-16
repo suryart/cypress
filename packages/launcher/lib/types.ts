@@ -3,11 +3,11 @@ import * as Bluebird from 'bluebird'
 
 // TODO: some of these types can be combined with cli/types/index.d.ts
 
-type BrowserName = 'electron' | 'chrome' | 'chromium' | 'firefox' | string
+type BrowserName = 'electron' | 'chrome' | 'chromium' | 'firefox' | 'safari' | string
 
 type BrowserChannel = 'stable' | 'canary' | 'beta' | 'dev' | 'nightly' | string
 
-type BrowserFamily = 'chromium' | 'firefox'
+type BrowserFamily = 'chromium' | 'firefox' | 'safari'
 
 export type PlatformName = 'darwin' | 'linux' | 'win32'
 
