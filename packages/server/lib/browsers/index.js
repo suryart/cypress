@@ -58,6 +58,10 @@ const getBrowserLauncher = function (browser) {
   if (browser.family === 'firefox') {
     return require('./firefox')
   }
+
+  if (browser.family === 'safari') {
+    return require('./safari')
+  }
 }
 
 const isValidPathToBrowser = (str) => {
