@@ -7,6 +7,7 @@ const families = {
   edge: /^edge/i,
   electron: /^electron/i,
   firefox: /^firefox/i,
+  safari: /^safari/i,
 }
 
 const logoPaths = {
@@ -21,6 +22,7 @@ const logoPaths = {
   firefox: require('browser-logos/src/firefox/firefox_32x32.png'),
   firefoxDeveloperEdition: require('browser-logos/src/firefox-developer-edition/firefox-developer-edition_32x32.png'),
   firefoxNightly: require('browser-logos/src/firefox-nightly/firefox-nightly_32x32.png'),
+  safari: require('browser-logos/src/safari/safari_32x32.png'),
 }
 
 const familyFallback = (browserKey) => {
